@@ -1,7 +1,10 @@
 ---
 ---
 
+//
 // IMPORTS
+//
+
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -15,9 +18,9 @@ html {
 }
 
 body {
-    background: $darkerGray; // Dark background
+    background: $background-light;
     font: 18px/1.4 $helvetica;
-    color: $gray; // Light text color
+    color: $primary-text;
 }
 
 .container {
@@ -34,7 +37,7 @@ h4,
 h5,
 h6 {
     font-family: $helveticaNeue;
-    color: $white; // Headings in white
+    color: $heading-color;
     font-weight: bold;
 
     line-height: 1.7;
@@ -63,7 +66,7 @@ h3 {
 
 h4 {
     font-size: 18px;
-    color: $gray; // Subtitle headings in gray
+    color: $secondary-text;
 }
 
 p {
@@ -71,12 +74,12 @@ p {
 }
 
 a {
-    color: $blue; // Links in blue
+    color: $accent;
     text-decoration: none;
     cursor: pointer;
     &:hover,
     &:active {
-        color: lighten($blue, 10%); // Lighten on hover
+        color: $accent;
     }
 }
 
@@ -84,7 +87,6 @@ ul,
 ol {
     margin: 15px 0;
     padding-left: 30px;
-    color: $white; // List items in white
 }
 
 ul {
@@ -115,7 +117,6 @@ i {
 strong,
 b {
     font-weight: bold;
-    color: $white; // Bold text in white
 }
 
 img {
@@ -129,35 +130,52 @@ img {
 
 .date {
     font-style: italic;
-    color: $gray;
+    color: $secondary-text;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-    color: $black;
-    background: $lightGray;
+    color: $background-dark;
+    background: $border-color;
 }
-
 ::selection {
-    color: $black;
-    background: $lightGray;
+    color: $background-dark;
+    background: $border-color;
 }
 
-// .wrapper-footer
-.wrapper-footer {
-    margin-top: 50px;
-    border-top: 1px solid $lightGray; // Footer border in light gray
-    border-bottom: 1px solid $lightGray;
-    background-color: $darkGray; // Dark footer background
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
 }
 
-footer {
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+    margin-bottom: 50px;
+}
+
+.masthead {
     padding: 20px 0;
-    text-align: center;
-    color: $white; // Footer text in white
+    border-bottom: 1px solid $border-color;
+
+    @include mobile {
+        text-align: center;
+    }
 }
 
-// .site-avatar
 .site-avatar {
     float: left;
     width: 70px;
@@ -175,7 +193,6 @@ footer {
     }
 }
 
-// .site-info
 .site-info {
     float: left;
 
@@ -186,10 +203,9 @@ footer {
     }
 }
 
-// .site-name
 .site-name {
     margin: 0;
-    color: $darkGray;
+    color: $primary-text;
     cursor: pointer;
     font-family: $helveticaNeue;
     font-weight: 300;
@@ -197,10 +213,9 @@ footer {
     letter-spacing: 1px;
 }
 
-// .site-description
 .site-description {
     margin: -5px 0 0 0;
-    color: $gray;
+    color: $secondary-text;
     font-size: 16px;
 
     @include mobile {
@@ -208,7 +223,6 @@ footer {
     }
 }
 
-// nav
 nav {
     float: right;
     margin-top: 23px; // @TODO: Vertically middle align
@@ -224,22 +238,25 @@ nav {
 
     a {
         margin-left: 20px;
-        color: $darkGray;
+        color: $primary-text;
         text-align: right;
         font-weight: 300;
         letter-spacing: 1px;
 
         @include mobile {
             margin: 0 10px;
-            color: $blue;
+            color: $accent;
         }
     }
 }
 
+//
 // .main
+//
+
 .posts > .post {
     padding-bottom: 2em;
-    border-bottom: 1px solid $lightGray;
+    border-bottom: 1px solid $border-color;
 }
 
 .posts > .post:last-child {
@@ -250,9 +267,9 @@ nav {
 .post {
     blockquote {
         margin: 1.8em 0.8em;
-        border-left: 2px solid $gray;
+        border-left: 2px solid $secondary-text;
         padding: 0.1em 1em;
-        color: $gray;
+        color: $secondary-text;
         font-size: 22px;
         font-style: italic;
     }
@@ -267,12 +284,11 @@ nav {
     }
 }
 
-// Footer
 .wrapper-footer {
     margin-top: 50px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    background-color: $lightGray;
+    background-color: $border-color;
 }
 
 footer {
@@ -281,5 +297,6 @@ footer {
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";

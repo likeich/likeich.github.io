@@ -2,14 +2,16 @@
 // VARIABLES
 //
 
-// Dark Theme Colors
-$blue: #61dafb;
-$black: #000;
-$darkerGray: #1a1a1a; // Dark background color
-$darkGray: #2a2a2a; // For slightly lighter dark elements
-$gray: #bbbbbb; // Text color
-$lightGray: #333333; // Lighter dark for borders, highlights
-$white: #f0f0f0; // Light text on dark background
+// Colors
+$accent: #4183c4;
+
+// Grays
+$background-dark: #000;
+$heading-color: #222;
+$primary-text: #333;
+$secondary-text: #666;
+$border-color: #eee;
+$background-light: #fff;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
