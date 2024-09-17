@@ -2,99 +2,16 @@
 layout: default
 ---
 
-<style>
-    body {
-        background-color: #121212;
-        color: #fff;
-        font-family: Arial, sans-serif;
-    }
-
-    .posts {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .project-row {
-        width: 100%;
-        max-width: 900px;
-        margin-bottom: 20px;
-    }
-
-    .project-card {
-        background-color: #1e1e1e;
-        border-radius: 8px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .project-icon img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .project-content {
-        flex-grow: 1;
-        padding: 0 20px;
-    }
-
-    .project-content h1 {
-        margin: 0;
-        font-size: 24px;
-    }
-
-    .project-content p {
-        margin: 5px 0;
-    }
-
-    .entry {
-        color: #b0b0b0;
-        font-size: 16px;
-    }
-
-    .project-link a {
-        color: #1e90ff;
-        text-decoration: none;
-    }
-
-    @media (max-width: 768px) {
-        .project-card {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .project-content {
-            padding: 10px 0;
-        }
-    }
-</style>
-
 <div class="posts">
     {% for post in site.posts %}
-    <div class="project-row">
-        <div class="project-card">
-            <div class="project-icon">
-                <!-- Add an image for the post here if available -->
-                <!-- Example: <img src="{{ post.image_url }}" alt="{{ post.title }} Icon"> -->
-            </div>
-            <div class="project-content">
-                <h1>
-                    <a href="{{ site.baseurl }}{{ post.url }}"
-                        >{{ post.title }}</a
-                    >
-                </h1>
-                <div class="entry">{{ post.excerpt }}</div>
-            </div>
-            <div class="project-link">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"
-                    >Read More</a
-                >
-            </div>
-        </div>
-    </div>
+    <article class="post">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">{{ post.excerpt }}</div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"
+            >Read More</a
+        >
+    </article>
     {% endfor %}
 </div>
