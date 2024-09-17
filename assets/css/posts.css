@@ -1,7 +1,15 @@
 .post {
     padding: 20px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    background-color: $lightBackground;
+    border-radius: 10px;\
+    box-shadow: 0 4px 6px $shadowColor;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.post:hover {
+    box-shadow: 0 6px 10px $strongShadowColor;
 }
 
 .post h1 {
@@ -11,4 +19,8 @@
 .read-more {
     color: #0073e6;
     text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
 }
