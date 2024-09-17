@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grayson Highlands and Mt. Rogers Backpacking Trip"
+title: Grayson Highlands and Mt. Rogers Backpacking Trip
 date: 2019-11-02
 ---
 
