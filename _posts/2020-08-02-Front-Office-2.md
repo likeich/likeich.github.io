@@ -19,7 +19,7 @@ A local car wash business chain with multiple locations has a proprietary databa
 
 This system is now halting upgrades to bring the computers at the washes up to modern standards and is preventing the company from moving to the forefront of car wash technology. The program I am now writing, Front Office 2.0, will replace that program and enable the business to prosper into the future.
 
-{% include video.html url='{{ site.baseurl }}/images/frontoffice2/purpose-vid.mp4' %}
+{% include video.html url='/images/frontoffice2/purpose-vid.mp4' %}
 
 ## Features
 
