@@ -10,11 +10,11 @@ $textColor: #ddd; // Light gray for text
 $headingColor: #f0f0f0; // Almost white for headings
 $primaryTextColor: #e0e0e0; // Slightly darker for primary text
 $secondaryTextColor: #999; // Lighter gray for secondary text
-$lightBackground: #444; // Dark gray for light backgrounds
-$background: #222; // Dark background
+$lightBackground: #222; // Dark gray for light backgrounds
+$background: #111; // Dark background
 
-$shadowColor: rgba(255, 255, 255, 0.1);
-$strongShadowColor: rgba(255, 255, 255, 0.2);
+$shadowColor: rgba(0, 0, 0, 0.5);
+$strongShadowColor: rgba(0, 0, 0, 1);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
