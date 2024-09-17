@@ -181,7 +181,7 @@ img {
 
 .masthead {
     padding: 20px 0;
-    border-bottom: 1px solid $lightBackground;
+    border-bottom: 1px solid $primaryTextColor;
 
     @include mobile {
         text-align: center;
@@ -268,11 +268,14 @@ nav {
     background-color: $lightBackground;
     border-radius: 10px;
     box-shadow: 0 4px 6px $shadowColor;
+    scale: 1;
     transition: box-shadow 0.2s ease-in-out;
+    transition: scale 0.2s ease-in-out;
 }
 
 .post-preview:hover {
     box-shadow: 0 6px 10px $strongShadowColor;
+    scale: 1.02;
 }
 
 .post-preview h1 {
