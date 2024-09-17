@@ -3,15 +3,15 @@
 //
 
 // Colors
-$blue: #4183c4;
+$primary: #1e70b8; // A darker shade of blue
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$textColor: #ddd; // Light gray for text
+$headingColor: #f0f0f0; // Almost white for headings
+$primaryTextColor: #e0e0e0; // Slightly darker for primary text
+$secondaryTextColor: #999; // Lighter gray for secondary text
+$lightBackground: #444; // Dark gray for light backgrounds
+$background: #222; // Dark background
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
