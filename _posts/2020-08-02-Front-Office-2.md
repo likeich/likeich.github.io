@@ -5,8 +5,6 @@ title: Front Office 2.0
 
 ![Main Picture]({{ site.baseurl }}/images/frontoffice2/main-pic.webp)
 
-# Front Office 2.0
-
 - Written in Java and JavaFX
 - Currently over 6000 lines of code written by me personally, 11000+ in total
 - 20 Java classes and more FXML files
