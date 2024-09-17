@@ -54,7 +54,7 @@ I replaced the down throw blanket with a fleece sleeping bag liner but had to di
 
 Both hikes were easy, but I struggled to regulate my temperature. Either I wore my raincoat and sweated, or I braved the wind without it. I opted for the latter to avoid freezing at night. The views were beautiful, and wild ponies added a fun touch. The open fields and rock outcroppings were a refreshing change from the Shenandoah National Park.
 
-![A View and Some Mountains]({{ site.baseurl }}/images/grayson-highlands/AViewAndSomeMountains.webp)
+![A View and Some Mountains]({{ site.baseurl }}/images/grayson-highlands/MeAndMountains.webp)
 
 ![Wild Ponies]({{ site.baseurl }}/images/grayson-highlands/Horses.webp)
 
