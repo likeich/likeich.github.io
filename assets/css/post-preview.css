@@ -1,15 +1,15 @@
 .post-preview {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: $lightBackground; // Ensure this variable is defined
-    border-radius: 10px; // Removed unnecessary backslash
-    box-shadow: 0 4px 6px $shadowColor; // Ensure this variable is defined
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px $shadowColor;
     border: 1px solid #ddd;
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .post-preview:hover {
-    box-shadow: 0 6px 10px $strongShadowColor; // Ensure this variable is defined
+    box-shadow: 0 6px 10px $strongShadowColor;
 }
 
 .post-preview h1 {
