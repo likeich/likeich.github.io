@@ -1,0 +1,26 @@
+.post-preview {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: $lightBackground; // Ensure this variable is defined
+    border-radius: 10px; // Removed unnecessary backslash
+    box-shadow: 0 4px 6px $shadowColor; // Ensure this variable is defined
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.post-preview:hover {
+    box-shadow: 0 6px 10px $strongShadowColor; // Ensure this variable is defined
+}
+
+.post-preview h1 {
+    font-size: 22px;
+}
+
+.read-more {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
