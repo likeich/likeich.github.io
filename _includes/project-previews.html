@@ -9,6 +9,10 @@
         <div class="title-description">
             <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
             <p class="project-description">{{ project.description }}</p>
+            {% if project.status %}
+            <small>{{ project.status }}</small>
+            <!-- Status text -->
+            {% endif %}
         </div>
     </div>
     {% if project.url %}

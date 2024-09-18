@@ -26,18 +26,6 @@
     margin: 0;
 }
 
-.content-preview {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: $lightBackground;
-    box-shadow: 0 4px 6px $shadowColor;
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.content-preview:hover {
-    box-shadow: 0 6px 12px $strongShadowColor;
-}
-
 .link-icon {
     position: absolute;
     bottom: 5px;
@@ -48,4 +36,10 @@
 
 .link-icon:hover {
     color: #007bff; /* Change color on hover (optional) */
+}
+
+.title-description small {
+    font-size: 0.85em;
+    color: #888; /* Light gray color */
+    margin-top: 10px;
 }
