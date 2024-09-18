@@ -1,20 +1,20 @@
 # _data/awards.yml
 - title: "Air Assault Badge"
-  image: "/images/awards/aa-badge.jpeg"
+  image: "/images/awards/aa-badge.png"
   description: "Awarded upon completing the US Army Air Assault School, demonstrating proficiency in air assault operations, including helicopter insertion and extraction, rappelling, and sling load operations."
-  date: "10/2022"
+  date: "October 2022"
 
 - title: "Army Achievement Medal (AAMR)"
-  image: "/images/awards/aam.jpeg"
+  image: "/images/awards/aam.webp"
   description: "Awarded for meritorious service while serving in Korea in a remote location while in support of an active combat operation."
-  date: "5/2022"
+  date: "April 2022"
 
 - title: "Order of the Arrow"
   image: "/images/awards/vigil.png"
   description: "Became an Order of the Arrow Vigil Honor member in 2021 after years of serving with the organization."
-  date: "8/2021"
+  date: "August 2021"
 
 - title: "Eagle Scout"
-  image: "/images/awards/eagle-scout.webp"
+  image: "/images/awards/eagle-scout.png"
   description: "Renovated a Christian camp and conference center building, adding ceiling fans, insulation, and a sink."
-  date: "9/2016"
+  date: "September 2016"
