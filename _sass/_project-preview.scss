@@ -1,20 +1,20 @@
 .icon-title-wrapper {
     display: flex;
-    align-items: center; /* Vertically aligns the image and text */
-    gap: 20px; /* Adds space between the image and text */
+    align-items: center;
+    gap: 20px;
 }
 
 .project-icon {
-    width: 100px; /* Set the size of the icon */
-    height: 100px; /* Ensures it's square */
-    object-fit: cover; /* Ensures the image fills the container and looks nice */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .title-description {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically centers the text content */
+    justify-content: center;
 }
 
 .title-description h2 {
