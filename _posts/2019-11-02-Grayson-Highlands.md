@@ -4,9 +4,9 @@ title: Grayson Highlands and Mt. Rogers Backpacking Trip
 date: 2019-11-02
 ---
 
-![Grayson Highlands]({{ site.baseurl }}/images/grayson-highlands/MtRogersChilly.webp)
-
 I just took an overnight backpacking trip to Grayson Highlands with a group of friends. The main goal of the trip was to visit Mount Rogers, the highest peak in Virginia, and to see its beautiful ecosystem. For the trip, I decided to challenge myself by bringing only a small backpack, my 26L GoRuck GR1, to test how far I could push the pack and my own comfort levels. Although it was a 1-night trip, the temperatures dropped to 20°F with strong winds on the mountain. I had limited space, so I had to figure out what was essential.
+
+![Grayson Highlands]({{ site.baseurl }}/images/grayson-highlands/MtRogersChilly.webp)
 
 ## The Gear
 
