@@ -1,0 +1,39 @@
+.icon-title-wrapper {
+    display: flex;
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.project-icon {
+    width: 100px; /* Set the size of the icon */
+    height: 100px; /* Ensures it's square */
+    object-fit: cover; /* Ensures the image fills the container and looks nice */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the text content */
+}
+
+.title-description h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.project-description {
+    margin: 0;
+}
+
+.content-preview {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: $lightBackground;
+    box-shadow: 0 4px 6px $shadowColor;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.content-preview:hover {
+    box-shadow: 0 6px 12px $strongShadowColor;
+}
