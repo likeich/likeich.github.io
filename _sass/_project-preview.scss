@@ -37,3 +37,15 @@
 .content-preview:hover {
     box-shadow: 0 6px 12px $strongShadowColor;
 }
+
+.link-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 24px;
+    color: $primaryTextColor;
+}
+
+.link-icon:hover {
+    color: #007bff; /* Change color on hover (optional) */
+}

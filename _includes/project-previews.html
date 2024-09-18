@@ -1,0 +1,25 @@
+{% for project in site.data.projects %}
+<div class="content-preview">
+    <div class="icon-title-wrapper">
+        <img
+            src="{{ project.icon }}"
+            alt="{{ project.title }} icon"
+            class="project-icon"
+        />
+        <div class="title-description">
+            <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+            <p class="project-description">{{ project.description }}</p>
+        </div>
+    </div>
+    {% if project.url %}
+    <a
+        href="{{ project.url }}"
+        class="link-icon"
+        target="_blank"
+        aria-label="Open project website"
+    >
+        <i class="ph-bold ph-link"></i>
+    </a>
+    {% endif %}
+</div>
+{% endfor %}
