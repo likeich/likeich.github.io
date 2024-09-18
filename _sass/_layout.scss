@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.custom-video {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.custom-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.wrapper-masthead {
+    margin-bottom: 50px;
+}
+
+.masthead {
+    padding: 20px 0;
+    border-bottom: 1px solid $primaryTextColor;
+
+    @include mobile {
+        text-align: center;
+    }
+}
+
+.wrapper-footer {
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: $lightBackground;
+}

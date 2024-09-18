@@ -1,0 +1,115 @@
+.site-avatar {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+}
+
+.site-info {
+    float: left;
+
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.site-name {
+    margin: 0;
+    color: $primaryTextColor;
+    cursor: pointer;
+    font-family: $helveticaNeue;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.site-description {
+    margin: -5px 0 0 0;
+    color: $secondaryTextColor;
+    font-size: 16px;
+
+    @include mobile {
+        margin: 3px 0;
+    }
+}
+
+nav {
+    float: right;
+    margin-top: 23px;
+    font-family: $helveticaNeue;
+    font-size: 18px;
+
+    @include mobile {
+        float: none;
+        margin-top: 9px;
+        display: block;
+        font-size: 16px;
+    }
+
+    a {
+        margin-left: 20px;
+        color: $primaryTextColor;
+        text-align: right;
+        font-weight: 300;
+        letter-spacing: 1px;
+
+        @include mobile {
+            margin: 0 10px;
+            color: $primary;
+        }
+    }
+}
+
+.content-preview {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: $lightBackground;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px $shadowColor;
+    scale: 1;
+    transition:
+        box-shadow 0.2s ease-in-out,
+        scale 0.2s ease-in-out;
+}
+
+.content-preview:hover {
+    box-shadow: 0 6px 10px $strongShadowColor;
+    scale: 1.02;
+}
+
+.content-preview h1 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.read-more {
+    color: $primary;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

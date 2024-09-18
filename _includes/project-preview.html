@@ -1,9 +1,13 @@
 <div class="content-preview">
-    <img
-        src="{{ project.icon }}"
-        alt="{{ project.title }} icon"
-        class="project-icon"
-    />
-    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-    <p>{{ project.excerpt }}</p>
+    <div class="icon-title-wrapper">
+        <img
+            src="{{ project.icon }}"
+            alt="{{ project.title }} icon"
+            class="project-icon"
+        />
+        <div class="title-description">
+            <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+            <p class="project-description">{{ project.excerpt }}</p>
+        </div>
+    </div>
 </div>
