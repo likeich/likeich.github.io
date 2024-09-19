@@ -1,8 +1,3 @@
-- title: A2 Languages
-  icon: images/projects/a2-icon.png
-  description: "A language learning app that uses spaced repetition, AI, and Bible readings to help you learn a new language."
-  status: "In development"
-
 - title: Console Launcher
   icon: images/projects/cl-icon.png
   description: "A home screen for Android phones which turns your phone into a game console."
@@ -14,3 +9,8 @@
   description: "An Army Regulation AI search engine that can find answers to complex questions in seconds."
   url: "https://reggie.bot"
   status: "Releasing in September 2024"
+
+- title: A2 Languages
+  icon: images/projects/a2-icon.png
+  description: "A language learning app that uses spaced repetition, AI, and Bible readings to help you learn a new language."
+  status: "In development"
