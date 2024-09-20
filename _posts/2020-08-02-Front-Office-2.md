@@ -7,7 +7,7 @@ title: Front Office 2.0
 - Currently over 6000 lines of code written by me personally, 11000+ in total
 - 20 Java classes and more FXML files
 
-![Main Picture]({{ site.baseurl }}/images/frontoffice2/main-pic.webp)
+{% include image.html image_src='/images/frontoffice2/main-pic.webp' description='Main Picture' %}
 
 ---
 
@@ -33,20 +33,20 @@ This system is now halting upgrades to bring the computers at the washes up to m
 - Created using the Gradle build system.
 - Designed with the Metro UI Design Language in mind.
 
-![This is a testing setup to test the polling of the card readers that I put together. It uses an RS232 to RS485 adaptor. In practice, multiple readers will be attached to this system. To poll them, a specific code and acknowledgement has to be sent through a serial port.]({{ site.baseurl }}/images/frontoffice2/test-setup.webp)
+{% include image.html image_src='/images/frontoffice2/test-setup.webp' description='This is a testing setup to test the polling of the card readers that I put together. It uses an RS232 to RS485 adaptor. In practice, multiple readers will be attached to this system. To poll them, a specific code and acknowledgement has to be sent through a serial port.' %}
 
 ---
 
-![The Card Monitor]({{ site.baseurl }}/images/frontoffice2/card-monitor.webp)
+{% include image.html image_src='/images/frontoffice2/card-monitor.webp' description='The Card Monitor' %}
 
-![A simple MDB upload in progress]({{ site.baseurl }}/images/frontoffice2/mdb-upload.webp)
+{% include image.html image_src='/images/frontoffice2/mdb-upload.webp' description='A simple MDB upload in progress' %}
 
-![Loading a card from the database]({{ site.baseurl }}/images/frontoffice2/loading-card.webp)
+{% include image.html image_src='/images/frontoffice2/loading-card.webp' description='Loading a card from the database' %}
 
-![My personal card history, queried from 630,000+ log files]({{ site.baseurl }}/images/frontoffice2/washcard-history.webp)
+{% include image.html image_src='/images/frontoffice2/washcard-history.webp' description='My personal card history, queried from 630,000+ log files' %}
 
-![Reissuing a card]({{ site.baseurl }}/images/frontoffice2/reissue-card.webp)
+{% include image.html image_src='/images/frontoffice2/reissue-card.webp' description='Reissuing a card' %}
 
-![Search for a card]({{ site.baseurl }}/images/frontoffice2/search-card.webp)
+{% include image.html image_src='/images/frontoffice2/search-card.webp' description='Search for a card' %}
 
-![Delete a card menu]({{ site.baseurl }}/images/frontoffice2/delete-card.webp)
+{% include image.html image_src='/images/frontoffice2/delete-card.webp' description='Delete a card menu' %}

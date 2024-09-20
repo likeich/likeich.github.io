@@ -6,7 +6,7 @@ date: 2019-11-02
 
 I just took an overnight backpacking trip to Grayson Highlands with a group of friends. The main goal of the trip was to visit Mount Rogers, the highest peak in Virginia, and to see its beautiful ecosystem. For the trip, I decided to challenge myself by bringing only a small backpack, my 26L GoRuck GR1, to test how far I could push the pack and my own comfort levels. Although it was a 1-night trip, the temperatures dropped to 20°F with strong winds on the mountain. I had limited space, so I had to figure out what was essential.
 
-![Grayson Highlands]({{ site.baseurl }}/images/grayson-highlands/MtRogersChilly.webp)
+{% include image.html image_src='/images/grayson-highlands/MtRogersChilly.webp' description='Grayson Highlands' %}
 
 ## The Gear
 
@@ -16,11 +16,11 @@ To prepare, I packed my backpack the week before the trip, excluding food and wa
 
 **Hydration System**
 
-![Hydration System]({{ site.baseurl }}/images/grayson-highlands/HydrationSystem.webp)
+{% include image.html image_src='/images/grayson-highlands/HydrationSystem.webp' description='Hydration System' %}
 
-![Outside Backpack]({{ site.baseurl }}/images/grayson-highlands/OutsideBackpack.webp)
+{% include image.html image_src='/images/grayson-highlands/OutsideBackpack.webp' description='Outside Backpack' %}
 
-![Packed Full]({{ site.baseurl }}/images/grayson-highlands/PackedFull.webp)
+{% include image.html image_src='/images/grayson-highlands/PackedFull.webp' description='Packed Full' %}
 
 **Outside of My Backpack**
 
@@ -42,9 +42,9 @@ To prepare, I packed my backpack the week before the trip, excluding food and wa
 
 ### What Changed
 
-![Open at Base Camp]({{ site.baseurl }}/images/grayson-highlands/OpenAtBaseCamp.webp)
+{% include image.html image_src='/images/grayson-highlands/OpenAtBaseCamp.webp' description='Open at Base Camp' %}
 
-![ROCK]({{ site.baseurl }}/images/grayson-highlands/ROCK.webp)
+{% include image.html image_src='/images/grayson-highlands/ROCK.webp' description='ROCK' %}
 
 I replaced the down throw blanket with a fleece sleeping bag liner but had to ditch both due to space issues. I added an Army-issue bivy cover for my sleeping bag and packed 2 trash bags as emergency rain covers. The compression cube was used for dirty clothes.
 
@@ -54,15 +54,15 @@ I replaced the down throw blanket with a fleece sleeping bag liner but had to di
 
 Both hikes were easy, but I struggled to regulate my temperature. Either I wore my raincoat and sweated, or I braved the wind without it. I opted for the latter to avoid freezing at night. The views were beautiful, and wild ponies added a fun touch. The open fields and rock outcroppings were a refreshing change from the Shenandoah National Park.
 
-![A View and Some Mountains]({{ site.baseurl }}/images/grayson-highlands/MeAndMountains.webp)
+{% include image.html image_src='/images/grayson-highlands/MeAndMountains.webp' description='A View and Some Mountains' %}
 
-![Wild Ponies]({{ site.baseurl }}/images/grayson-highlands/Horses.webp)
+{% include image.html image_src='/images/grayson-highlands/Horses.webp' description='Wild Ponies' %}
 
-![Mountains]({{ site.baseurl }}/images/grayson-highlands/Mountains.webp)
+{% include image.html image_src='/images/grayson-highlands/Mountains.webp' description='Mountains' %}
 
 ### The Long Night
 
-![My Camp Home]({{ site.baseurl }}/images/grayson-highlands/MyCampHome.webp)
+{% include image.html image_src='/images/grayson-highlands/MyCampHome.webp' description='My Camp Home' %}
 
 The cold night was a challenge, compounded by the time change, which meant an extra hour in the hammock. My strategy to stay warm:
 
@@ -152,4 +152,4 @@ The plan worked! I stayed warm all night, waking only a few times, never from th
 - 4x S-biners
 - 2x Trash bags
 
-![Feet by the Fire]({{ site.baseurl }}/images/grayson-highlands/feet-by-the-fire.webp "A happy place")
+{% include image.html image_src='/images/grayson-highlands/feet-by-the-fire.webp' description='Feet by the Fire - A happy place' %}

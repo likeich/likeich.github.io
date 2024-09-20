@@ -1,0 +1,27 @@
+<div class="content-preview no-padding">
+    <div class="center-div">
+        <img
+            src="{{ include.image_src }}"
+            alt="{{ include.description }}"
+            class="image-shadow"
+        />
+        {% if include.description %}
+        <p>{{ include.description }}</p>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+    .image-shadow {
+        width: 100%;
+    }
+
+    .center-div {
+        text-align: center;
+    }
+
+    .center-div p {
+        padding: 20px;
+        margin: 0px;
+    }
+</style>

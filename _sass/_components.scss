@@ -77,11 +77,16 @@ nav {
     margin-bottom: 20px;
     background-color: $lightBackground;
     border-radius: 10px;
+    overflow: hidden;
     box-shadow: 0 4px 6px $shadowColor;
     scale: 1;
     transition:
         box-shadow 0.2s ease-in-out,
         scale 0.2s ease-in-out;
+}
+
+.content-preview.no-padding {
+    padding: 0px !important; /* Override padding */
 }
 
 .content-preview:hover {

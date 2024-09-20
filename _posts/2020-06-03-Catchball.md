@@ -8,9 +8,9 @@ date: 2020-06-03
 - I made this to learn about uploading apps to the Google Play Store and to gain experience polishing a project.
 - It was programmed in GDScript and made in Godot.
 
-![Catchball Header](/images/catchball/header.webp)
+{% include image.html image_src='/images/catchball/header.webp' description='Catchball Header' %}
 
-![Catchball Levels](/images/catchball/mainmenu.webp)
+{% include image.html image_src='/images/catchball/mainmenu.webp' description='Catchball Levels' %}
 *The purpose of the game is to catch all the balls in each level in one catcher. It includes 60 levels.*
 
-![Catchball Gameplay](/images/catchball/gameplay.webp)
+{% include image.html image_src='/images/catchball/gameplay.webp' description='Catchball Gameplay' %}
