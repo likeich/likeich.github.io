@@ -14,3 +14,8 @@
   icon: images/projects/a2-icon.png
   description: "A language learning app that uses spaced repetition, AI, and Bible readings to help you learn a new language."
   status: "In development"
+# - title: Quran.sh
+#   icon: images/projects/quran-sh.svg
+#   description: "A website detailing the text of the Quran from an Orthodox Christian perspective."
+#   url: "https://quran.sh"
+#   status: "Live at https://quran.sh"
