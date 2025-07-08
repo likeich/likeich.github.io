@@ -4,6 +4,12 @@
   url: "https://consolelauncher.app"
   status: "5+ million installs on Google Play"
 
+- title: Wallpaper Reactor
+  icon: images/projects/wr-icon.webp
+  description: "The first multiplatform live wallpaper application to run on Android, macOS, and Windows."
+  url: "https://play.google.com/store/apps/details?id=app.wallpaperreactor"
+  status: "Beta release available on Google Play"
+
 - title: Reggie.Bot
   icon: images/projects/reggie-icon.png
   description: "An Army Regulation AI search engine that can find answers to complex questions in seconds."
