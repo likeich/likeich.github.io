@@ -7,7 +7,7 @@
 - title: Wallpaper Reactor
   icon: images/projects/wr-icon.webp
   description: "The first multiplatform live wallpaper application to run on Android, macOS, and Windows."
-  url: "https://likeich.github.io/wallpaper-reactor-website/"
+  url: "https://wallpaperreactor.app"
   status: "Android release available on Google Play"
 
 - title: Reggie.Bot
